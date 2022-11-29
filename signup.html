@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login & Registration Website">
+    <meta name="keywords" content="login , registration , website ,email,password">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!-- SignUp Section Starts -->
+
+    <span class="d-none" id="user"></span>
+    <div class="container my-5 pt-5 text-center">
+        <div class="inputs m-auto w-75 p-5">
+            <h1>Smart Login System</h1>
+            <input type="text" id="signupName" class="form-control my-3" placeholder="Enter your name">
+            <input type="email" id="signupEmail" class="form-control my-3" placeholder="Enter your email">
+            <input type="password" id="signupPassword" class="form-control my-3" placeholder="Enter password">
+            <p id="signupError"></p>
+            <button onclick="signUp()" id="signUpButton" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p class="text-white">You have an account? <a class="text-white" href="index.html">Sign in</a></p>
+        </div>
+    </div>
+
+    <!-- SignUp Section Ends -->
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

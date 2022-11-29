@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login & Registration Website">
+    <meta name="keywords" content="login , registration , website ,email,password">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body id="home">
+    <!-- Home Section Starts -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark inputs">
+        <div class="container">
+          <a class="navbar-brand" href="#">Smart Login System</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a onclick="logout()" class="nav-link btn btn-outline-warning " href="index.html">Logout</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container text-center h-100 my-5 d-flex align-items-center">
+        <div class="inputs m-auto w-75 p-5">
+            <h1 id="user"></h1>
+        </div>
+    </div>
+
+    <!-- Home Section Ends -->
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
